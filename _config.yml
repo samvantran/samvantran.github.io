@@ -1,0 +1,12 @@
+# Site settings
+title: samvantran
+email: sam.tran@flatironschool.com
+description: > # this means to ignore newlines until "baseurl:"
+  samvantran's musings on code, rapgenius, and internet memes
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://samvantran.github.io" # the base hostname & protocol for your site
+twitter_username: samvantran
+github_username:  samvantran
+
+# Build settings
+markdown: kramdown
