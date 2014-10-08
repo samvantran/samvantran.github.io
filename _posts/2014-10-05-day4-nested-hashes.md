@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Day 4 // FS : Feelings Friday"
+title:  "FS // Day 4 : Feelings Friday"
 date:   2014-10-05 21:15:03
 categories: flatironschool, ruby
 tags: arrays, hashes, regex, yield, blocks, enumerables, iteration, sorting, data structures, nested data structures, collections, named parameters, Grace Hopper
