@@ -1,18 +1,20 @@
 ---
 layout: post
-title:  "Recursive Roman Numerals"
-date:   2014-10-07 22:15:03
-categories: flatironschool, ruby
-tags: arrays, hashes, recursion, classes, class methods, blocks, enumerables, iteration, sorting, data structures
+title:  "FS // Day 6 | Object Orientation"
+date:   2014-10-06 22:15:03
+categories: flatironschool, ruby, oo
+tags: hashes, recursion, classes, class methods, blocks, enumerables, iteration, sorting, data structures, object-orientation, oo, xerox, apple, xparc pirates, alan kay
 ---
 
 So the `def` keyword is used to build `methods`...
 
 ...just kidding.
 
-### Recursion, You Sexy Thing
+### Biggest Problem of the Day (BPD): Roman Numerals 
 
-Today, one of our labs consisted of adding a Class method `Integer#to_roman` which returns a string of Roman Numerals based on that integer. I got the specs to pass with the following code but I fully recognize that it is atrocious.
+Task: Write an Integer Class method that returns a string of Roman Numerals based on its integer.
+
+I got the specs to pass with the following code but I fully recognize that it is atrocious and not what anyone would consider `DRY`.
 
 {% highlight ruby %}
 class Integer
@@ -66,7 +68,7 @@ class Integer
 end
 {% endhighlight %}
 
-One of my teammates, [@Molly](https://github.com/molgin), finished early and seemed very pleased with her solution so I asked her to show me the code. Behold:
+One of my teammates, [@Molly](https://github.com/molgin), finished early and seemed very pleased with her solution so I asked her to show me the code. Behold.
 
 {% highlight ruby %}
 class Integer
@@ -81,9 +83,17 @@ class Integer
 end
 {% endhighlight %}
 
-It's beautiful. 
+Recursion, you sexy thing.
 
-It stores the roman numerals as key/value pairs; sorts and reverses them; calls find -- which returns the first key that evaluates to true -- then returns that key's value and recursively calls itself again after reducing the integer value. Once it gets to its base case, it returns an empty string and is complete. All on 10 lines!
+Let's break this down:
+
+* It stores the roman numerals as key/value pairs
+* sorts and reverses the hash so that all the largest numbers come first
+* calls find -- which returns the first key that evaluates to true -- in this case, the largest number closest to the integer
+* returns that key's value -- a roman numeral string
+* and then recursively calls itself again after reducing the integer value by the hash value. Once it gets to its base case, it returns an empty string and is complete. 
+
+All on 10 lines!
 
 I'll admit, when I read Molly's code, I felt like this scene out of Silicon Valley:
 
@@ -91,4 +101,37 @@ I'll admit, when I read Molly's code, I felt like this scene out of Silicon Vall
 
 Future post on `recursion` to come but I just wanted to shout out this sick chaining work of art.
 
+### Rest of the day:
+The start of lecture was about the Xparc Pirates. Basically, in the late 70's, Xerox was the epicenter of technology advancement: they created object orientation, pointers, the mouse, the GUI -- all brought on by [Alan Kay](http://en.wikipedia.org/wiki/Alan_Kay) and his team. But in 1979, they were forced by Xerox executives to show off their creations to Steve Jobs and Apple who basically stole everything. Months after the visit, Apple delivered their iconic Macintosh and became one of the most valuable technology companies in the world. Xerox on the other hand, would be relegated and only known for its... printers.
+
+### Object Orientation
+We finally jumped into object orientation (OO)! We discussed Classes, class methods, instance methods, initializing object attributes with `def initialize`, setters & getters/writers & readers, and `attr_accessor`, `attr_reader`, `attr_writer`.
+
+Here is a very simple `Class` we built:
+
+{% highlight ruby %}
+class Book
+  attr_accessor :author, :page_count
+  attr_reader :title, :genre
+
+  GENRES = []
+
+  def initialize(title)
+    @title = title
+  end
+
+  def genre=(genre)
+    @genre = genre
+    GENRES << genre
+  end
+
+  def turn_page
+    puts "Flipping the page...wow, you read fast!"
+  end
+end
+{% endhighlight %}
+
+I'm learning a ton and it's just baffling to see how far I've come in the last 8 days. Avi is a phenomenal teacher and working with other students, bouncing ideas and fielding each other's questions, has *exponentially* increased my learning. I'm loving it.
+
+Left FS @9pm
 

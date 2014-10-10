@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Flatiron School // Day 0"
+title: "FS // Day 0 | Flatiron School Orientation"
 date: 2014-09-29 23:10:00
 categories: flatironschool, git
 tags: flatironschool, roadtocode, history, ada lovelace, charles babbage, git
