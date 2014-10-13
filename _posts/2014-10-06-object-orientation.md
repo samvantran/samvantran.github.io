@@ -105,7 +105,7 @@ Future post on `recursion` to come but I just wanted to shout out this sick chai
 The start of lecture was about the Xparc Pirates. Basically, in the late 70's, Xerox was the epicenter of technology advancement: they created object orientation, pointers, the mouse, the GUI -- all brought on by [Alan Kay](http://en.wikipedia.org/wiki/Alan_Kay) and his team. But in 1979, they were forced by Xerox executives to show off their creations to Steve Jobs and Apple who basically stole everything. Months after the visit, Apple delivered their iconic Macintosh and became one of the most valuable technology companies in the world. Xerox on the other hand, would be relegated and only known for its... printers.
 
 ### Object Orientation
-We finally jumped into object orientation (OO)! We discussed Classes, class methods, instance methods, initializing object attributes with `def initialize`, setters & getters/writers & readers, and `attr_accessor`, `attr_reader`, `attr_writer`.
+We finally jumped into object orientation (OO)! Objects are anything that encapsulate data. Integers, Strings, Arrays, Hashes, Classes... everything in Ruby is an object. We discussed Classes, class methods, instance methods, initializing object attributes with `def initialize`, setters & getters/writers & readers, and `attr_accessor`, `attr_reader`, `attr_writer`. 
 
 Here is a very simple `Class` we built:
 
