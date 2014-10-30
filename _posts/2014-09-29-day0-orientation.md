@@ -2,7 +2,7 @@
 layout: post
 title: "FS // Day 0 | Flatiron School Orientation"
 date: 2014-09-29 23:10:00
-categories: flatironschool, git
+categories: flatironschool git
 tags: flatironschool, roadtocode, history, ada lovelace, charles babbage, git
 ---
 Day 0, we jumped right into it. Avi made a small introduction and split us up into groups to tackle the first lab. We basically built a static website for the person next to us after exchanging information (links, websites, github profiles, twitter handles, favorite hobbies, etc). Then we merged our repos into master and pushed it onto the main site.

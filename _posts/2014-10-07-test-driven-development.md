@@ -2,7 +2,7 @@
 layout: post
 title:  "FS // Day 7 | Test-Driven Development"
 date:   2014-10-07 22:30:30
-categories: flatironschool, ruby, oo
+categories: flatironschool ruby oo
 tags: classes, class methods, blocks, enumerables, iteration, sorting, data structures, object-orientation, oo, test-driven development, tdd, kent beck, hip-hop, dancing
 ---
 #### "Make it work, make it right, make it fast" - Kent Beck

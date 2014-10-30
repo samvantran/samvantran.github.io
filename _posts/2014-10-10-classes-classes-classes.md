@@ -2,7 +2,7 @@
 layout: post
 title:  "FS // Day 8 | Web Scraping & MVC"
 date:   2014-10-10 01:30:30
-categories: flatironschool, ruby, oo, mvc
+categories: flatironschool ruby oo mvc
 tags: classes, class methods, instances, instance methods, writers, readers, setters, getters, hashes, arrays, object-orientation, oo, scraping, mvc, perl, larry wall
 ---
 #### “The three chief virtues of a programmer are: laziness, impatience, and hubris.” - Larry Wall
@@ -55,8 +55,3 @@ We switched up groups today; which I'm happy about. There are 40 students in the
 A few of us finished labs "early" so I ended the day watching music videos and hip hop and modern dance choreo with Thinh, which was great. I left at 7pm and it's just funny that I now consider a 10 hour day "early".
 
 Left FS @7pm.
-
-Here's another one of my favorite hip-hop choreos. That ending!!
-
-<iframe width="600" height="400" src="//www.youtube.com/embed/vBPupS80b8k" frameborder="0" allowfullscreen></iframe>
-

@@ -2,7 +2,7 @@
 layout: post
 title:  "FS // Day 6 | Object Orientation"
 date:   2014-10-06 22:15:03
-categories: flatironschool, ruby, oo
+categories: flatironschool ruby oo
 tags: hashes, recursion, classes, class methods, blocks, enumerables, iteration, sorting, data structures, object-orientation, oo, xerox, apple, xparc pirates, alan kay
 ---
 
