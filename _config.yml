@@ -2,7 +2,7 @@
 title: samvantran | real code, no gimmicks
 email: sam.tran@flatironschool.com
 description: > # this means to ignore newlines until "baseurl:"
-  samvantran's musings on code, hip-hop, and internet memes
+  samvantran's musings on code and internet memes
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://samvantran.github.io" # the base hostname & protocol for your site
 twitter_username: samvantran
