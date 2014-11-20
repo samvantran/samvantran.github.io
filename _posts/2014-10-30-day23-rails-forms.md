@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "FS // Day 23 | Rails - ActionView FormHelper"
+title:  "FS // Day 23 | Rails - ActionView Forms"
 date:   2014-10-30 11:30:30
 categories: flatironschool ruby rails
 tags: ruby, rails, form, formhelpers
