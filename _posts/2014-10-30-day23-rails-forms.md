@@ -22,6 +22,7 @@ Forms enable CRUD actions depending on the type of object in scope. Notably, for
 * GET (index/show/edit/new)
 * POST (create)
 * PATCH (update) and
+* DELETE (destroy)
 
 ### Three steps to making forms work
 
